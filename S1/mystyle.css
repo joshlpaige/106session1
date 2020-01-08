@@ -1,0 +1,42 @@
+body{
+    background: url(img/town.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+}
+
+h1{
+    color:rgb(9, 19, 172);
+    background-color: #fafafa;
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+div{
+    padding:10px;
+    background-color:#fafafa;
+    width: 400px;
+    border:1px solid #eee;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+ul{
+    padding: 10px 15px;
+    border:1px solid #eee;
+}
+
+ul li{
+    margin: 10px 5px;
+    font-size: 20px;
+    background-color: #fafafa;
+    height: 5vh;
+    justify-content: space-between;
+    font-weight: bold;
+    display: flex;
+}
+
+.btn-outline-danger{
+    float: right;
+}
